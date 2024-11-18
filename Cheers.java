@@ -2,7 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
 	    
-          String s = args[0];
+          String s = args[0].toUpperCase();
           int run = Integer.parseInt(args[1]);
           String an = "AEFHILMNORSX";
           char temp ='0';
