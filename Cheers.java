@@ -9,10 +9,10 @@ public class Cheers {
           for (int i=0; i<s.length(); i++)    {
                temp= s.charAt(i);
                 if (an.indexOf(temp) !=-1) {
-                        System.out.println("Give me an " + temp + ": " + temp);
+                        System.out.println("Give me an " + temp + ": " + temp + "!");
                 }
                 else {
-                        System.out.println("Give me a  " + temp + ": " + temp); 
+                        System.out.println("Give me a  " + temp + ": " + temp + "!"); 
                 }   
         }      
           System.out.println("What does that spell?");
