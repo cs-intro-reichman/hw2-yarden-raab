@@ -5,7 +5,7 @@ public class CalcPi {
 		double sum = 0.0;
 		double temp = 0.0;
 		int i = 1;
-		System.out.println("pi accoding to Java: " + Math.PI);
+		System.out.println("pi according to Java: " + Math.PI);
         while (i< 2*count) {
 			temp = 1.0/i;
 			//System.out.println("temp: "+temp);
