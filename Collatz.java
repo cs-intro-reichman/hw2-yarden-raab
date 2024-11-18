@@ -10,7 +10,7 @@ public class Collatz {
 		int seed =1;
 		int count = 1;
 
-		if (mode.equals("c")) {
+		if (mode.equals("v")) {
 			for (int i=1; i<=n; i++){
 				seed=i;
 				count=1;
